@@ -6,10 +6,10 @@ public class senjata : MonoBehaviour
 {
     public Transform tangan;
     public Transform bahu;
-    [SerializeField] private jalan jlnscrpt;
+    [SerializeField] private characterController jlnscrpt;
     void Start()
     {
-        jlnscrpt = FindObjectOfType<jalan>();
+        jlnscrpt = FindObjectOfType<characterController>();
     }
 
     // Update is called once per frame
